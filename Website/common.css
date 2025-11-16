@@ -11,3 +11,57 @@
     --breadText-size: 12px;
     --logo-size: 36px;
 }
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 245px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+#logo p:first-child {
+    font-size: var(--logo-size);
+    color: white;
+}
+
+#logo p:nth-child(2) {
+    font-size: 10px;
+    color: var(--Accent-color);
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.userChoice {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.userChoice p {
+    color: var(--textSecondary-color);
+    font-size: var(--headline2-size);
+}
+
+.userChoice img {
+    height: 20px;
+}
